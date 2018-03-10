@@ -8,10 +8,10 @@
   function GenomeSequenceCheckController($scope, $http) {
 
     $scope.add =  function(bacteria, sequence){
-      var genomeindicator = {
+      var genome = {
         sequence: sequence,
       };
-      bacteria.genomeindicators.push(genomeindicator);
+      bacteria.genomes.push(genome);
     };
 
     $scope.data = [];
