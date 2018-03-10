@@ -1,0 +1,22 @@
+{% load staticfiles %}
+
+<html>
+    <body ng-app="genomesequencecheck.demo">
+
+        {% verbatim %}
+        <div ng-controller="GenomeSequenceCheckController">
+          <div ng-repeat="bacteria in data">
+            <h3>{{ bacteria.name }}</h3>
+              <ul>
+                <li ng-repeat="genomes in bacteria.genomes">{{ genomes.operon }}</li>
+              </ul>
+              <input type="text" ng-model="new_sequence"/>
+              <button ng-click="add(bacteria, new_sequence)">+</button>
+            </div>
+        </div>
+        {% endverbatim %}
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="{% static "genomesequencecheck/genomesequencecheck.js" %}"></script>
+    </body>
+</html>
