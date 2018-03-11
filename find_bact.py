@@ -153,3 +153,8 @@ blast_res['species'] = blast_res['hit_id'].apply(GetInd)
 blast_res_qual = blast_res[blast_res['Result']>=90]
 
 results = (blast_res_qual.groupby('species')['hit_id'].count())
+
+pathogens = []
+
+for i in range(len(reuslts)):
+    pathogens.append(results.index[i])
