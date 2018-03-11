@@ -1,12 +1,12 @@
 (function () {
   'use strict';
 
-  angular.module('genomesequencecheck.demo')
+  angular.module('genomesequencecheckpage')
     .directive('genomePlaceholder', GenomeDirective);
 
     function GenomeDirective() {
       return {
-        templateUrl: '/static/html/genome.html',
+        templateUrl: 'static/html/genome.html',
         restrict: 'E'
       };
     }

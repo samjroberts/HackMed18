@@ -1,18 +1,22 @@
 {% load staticfiles %}
-
 <html>
-
     <head>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" type="text/css"
-              href="{% static "/static/css/HackMed18.css" %}" >
+              href="{% static "css/HackMed18.css" %}" >
+
+              <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+              <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.min.js"></script>
+
+              <script src="{% static "js/genomesequencecheck.config.js" %}"></script>
+              <script src="{% static "js/genomesequencecheck.js" %}"></script>
+              <script src="{% static "js/fileupload.js" %}"></script>
+              <script src="{% static "js/fileupload-2.js" %}"></script>
+              <script src="{% static "js/genome.directive.js" %}"></script>
+              <script src="{% static "js/ng-upload.js" %}"></script>
+
     </head>
 
-
-</html>
-
-<!DOCTYPE html>
-<html>
 <title>GenomeMatcher</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +28,8 @@ body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
-<body>
+
+<body ng-app="genomesequencecheckpage">
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
@@ -35,6 +40,7 @@ body {font-size:16px;}
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
     <a href="/admin/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Admin Screen</a>
+    <a href="/genomesequencecheck/files/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">File Upload API</a>
     <a href="/genomesequencecheck/bacteria/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Bacteria API</a>
     <a href="/genomesequencecheck/genomeindicators/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Genome Indicators API</a>
   </div>
@@ -43,7 +49,7 @@ body {font-size:16px;}
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Company Name</span>
+  <span>FastBLAST</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -54,23 +60,38 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>We made something</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Hurray us</b></h1>
+    <h1 class="w3-jumbo"><b>FastBLAST</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>We made something, hurray us!</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
 
-  <div ng-app="genomesequencecheck.demo">
+  <!--<ng-view></ng-view>-->
+  {% verbatim %}
+  <div ng-controller="FileUploadController">
+     <input type="file" ng-model = "new_file"/>
+     <button ng-click="uploadFile(new_file)">upload me!</button>
+  </div>
 
-      <ng-view></ng-view>
+  <form action="/genomesequencecheck/files/?avatar=Idea+4+-+Big+Road+Trip.txt" method="POST"
+        enctype="multipart/form-data" class="form-horizontal" novalidate>
+        <fieldset>
+          <div class="form-group">
+            <input name="encodedFile" type="file"/>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" title="Make a POST request on the File Upload List Resource">POST</button>
+          </div>
+        </fieldset>
+      </form>
+  {% endverbatim %}
 
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.min.js"></script>
-      <script src="{% static "js/genomesequencecheck.config.js" %}"></script>
-      <script src="{% static "js/genomesequencecheck.js" %}"></script>
-      <script src="{% static "js/genome.directive.js" %}"></script>
-
-
-
+  <div ng-app="app">
+    <div ng-controller="mainCtrl">
+     <form action="/genomesequencecheck/files/" ng-upload="complete(content)">
+       <input type="file" name="avatar"></input>
+       <input type="submit" value="Upload" ng-disabled="$isUploading"></input>
+     </form>
+   </div>
   </div>
 
 </div>

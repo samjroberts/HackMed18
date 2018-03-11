@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('genomesequencecheck.demo', ['ngRoute'])
+  angular.module('genomesequencecheckpage', ['ngRoute'])
       .controller('GenomeSequenceCheckController',
       ['$scope', '$http', GenomeSequenceCheckController]);
 
@@ -19,4 +19,4 @@
       $scope.data = response.data;
     });
   }
-}());
+})();

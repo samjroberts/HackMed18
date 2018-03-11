@@ -1,18 +1,20 @@
 (function () {
   'use strict';
 
-  angular.module('genomesequencecheck.demo').run(['$http', run])
+  angular.module('genomesequencecheckpage', ['ngRoute'])
         .config(['$routeProvider', config])
         .run(['$http', run]);
 
   function config($routeProvider) {
-
     $routeProvider
-      .when('/', {
+      .when('/genomes', {
         templateUrl: '/static/html/genomesequencecheck.html',
         controller: 'GenomeSequenceCheckController',
       })
-      .otherwise('/');
+      .otherwise('/', {
+        templateUrl: '/static/html/fileupload.html',
+        controller: 'FileUploadController',
+      });
   }
 
   function run($http){

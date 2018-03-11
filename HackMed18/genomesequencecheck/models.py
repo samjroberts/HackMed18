@@ -16,7 +16,7 @@ class GenomeIndicator(models.Model):
     bacteria = models.ForeignKey(Bacteria, related_name="genomes", on_delete=models.CASCADE)
 
     def __str__(self):
-        return "Sequence: {}".format(self.sequence)
+        return "Operon ID: {}".format(self.operon)
 
 class FileUpload(models.Model):
     encodedFile = models.FileField('Uploaded file')

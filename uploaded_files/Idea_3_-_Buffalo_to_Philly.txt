@@ -1,0 +1,18 @@
+SUMMARY:
+Fly in to Buffalo, road trip to Philly, train to NY to meet others for Boston. 
+
+DETAILS:
+- Fly in to Buffalo, 2 nights, go see the Falls
+- hire a car, road trip the following route (roughly):
+https://www.google.co.uk/maps/dir/Buffalo,+NY,+USA/State+College,+PA,+USA/Jim+Thorpe,+PA,+USA/Delaware+Water+Gap,+PA,+USA/Philadelphia,+PA,+USA/@41.3253839,-77.6365436,11z/data=!4m37!4m36!1m10!1m1!1s0x89d3126152dfe5a1:0x982304a5181f8171!2m2!1d-78.8783689!2d42.8864468!3m4!1m2!1d-77.5651711!2d41.2049337!3s0x89ce8ad389db4c61:0xc27ea4fb580d161b!1m5!1m1!1s0x89cea899c13bdb73:0x9ce1c6c2833c8091!2m2!1d-77.8600012!2d40.7933949!1m5!1m1!1s0x89c5b29d3eaaaf53:0x229b0f3147157f91!2m2!1d-75.7324127!2d40.8759235!1m5!1m1!1s0x89c487c211bef2e9:0x5285c21524fd251c!2m2!1d-75.1429563!2d40.9792619!1m5!1m1!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!2m2!1d-75.1652215!2d39.9525839!3e2
+- Road trip includes:
+     * Niagra Falls
+     * Pennsylvania State Forests
+     * Penn State college town
+     * Delaware Water Gap
+     * Philadelphia
+- Drop car back off at NY, stay 2 nights
+- See Tom's place and surrounding area
+- Go see Martha's vineyard and Cape Cod
+- Boston
+- Home
