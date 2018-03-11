@@ -67,32 +67,18 @@ body {font-size:16px;}
 
   <!--<ng-view></ng-view>-->
   {% verbatim %}
-  <div ng-controller="FileUploadController">
-     <input type="file" ng-model = "new_file"/>
-     <button ng-click="uploadFile(new_file)">upload me!</button>
-  </div>
-
   <form action="/genomesequencecheck/files/?avatar=Idea+4+-+Big+Road+Trip.txt" method="POST"
-        enctype="multipart/form-data" class="form-horizontal" novalidate>
-        <fieldset>
-          <div class="form-group">
-            <input name="encodedFile" type="file"/>
-          </div>
-          <div class="form-actions">
-            <button class="btn btn-primary" title="Make a POST request on the File Upload List Resource">POST</button>
-          </div>
-        </fieldset>
-      </form>
+      enctype="multipart/form-data" class="form-horizontal" novalidate>
+      <fieldset>
+        <div class="form-group">
+          <input name="encodedFile" type="file"/>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" title="Make a POST request on the File Upload List Resource">POST</button>
+        </div>
+      </fieldset>
+  </form>
   {% endverbatim %}
-
-  <div ng-app="app">
-    <div ng-controller="mainCtrl">
-     <form action="/genomesequencecheck/files/" ng-upload="complete(content)">
-       <input type="file" name="avatar"></input>
-       <input type="submit" value="Upload" ng-disabled="$isUploading"></input>
-     </form>
-   </div>
-  </div>
 
 </div>
 
