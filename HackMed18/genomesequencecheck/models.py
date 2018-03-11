@@ -17,3 +17,6 @@ class GenomeIndicator(models.Model):
 
     def __str__(self):
         return "Sequence: {}".format(self.sequence)
+
+class FileUpload(models.Model):
+    encodedFile = models.FileField('Uploaded file')

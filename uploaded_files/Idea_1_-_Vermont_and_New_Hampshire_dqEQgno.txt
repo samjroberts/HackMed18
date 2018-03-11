@@ -1,0 +1,30 @@
+SUMMARY:
+Fly in/out NY, train to Montreal, roadtrip back to Boston via vermont and Maine, then do stuff around Tom. 
+
+DETAILS:
+- Fly in to NY, stay 1/2 nights
+- train to Montreal using Amtrak:
+https://www.seat61.com/Canada.htm#Trains-from-the-USA-to-Canada
+- stay in Montreal for 1/2 nights
+- hire a car, road trip the following route (roughly):
+https://www.google.co.uk/maps/dir/New+York/Newport,+RI,+USA/Provincetown,+MA,+USA/Boston,+MA,+USA/Portland,+ME,+USA/White+Mountain+National+Forest,+Livermore,+NH,+USA/Burlington,+VT,+USA/Montreal,+QC,+Canada/@43.0831412,-74.2302893,7z/data=!3m1!4b1!4m50!4m49!1m5!1m1!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2m2!1d-74.0059728!2d40.7127753!1m5!1m1!1s0x89e5bab70509976b:0xce5e96f72c2f6f21!2m2!1d-71.3128285!2d41.4901024!1m5!1m1!1s0x89fca780cf83c821:0xd8d2863ae0f05eda!2m2!1d-70.1786425!2d42.0584412!1m5!1m1!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!2m2!1d-71.0588801!2d42.3600825!1m5!1m1!1s0x4cb29c72aab0ee2d:0x7e9db6b53372fa29!2m2!1d-70.2553259!2d43.661471!1m5!1m1!1s0x4cb383609f22954b:0x579e0cb7d53d5264!2m2!1d-71.3828532!2d44.1334005!1m5!1m1!1s0x4cca7a55b69b55e5:0xc35fe519720e498e!2m2!1d-73.212072!2d44.4758825!1m5!1m1!1s0x4cc91a541c64b70d:0x654e3138211fefef!2m2!1d-73.567256!2d45.5016889!3e0 
+- Adjusted the trip to take in the best Vermont roads:
+https://www.google.co.uk/maps/dir/New+York/Newport,+RI,+USA/Provincetown,+MA,+USA/Boston,+MA,+USA/Portland,+ME,+USA/Burlington,+VT,+USA/Montreal,+QC,+Canada/@44.2272332,-73.0569849,9z/data=!4m69!4m68!1m5!1m1!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2m2!1d-74.0059728!2d40.7127753!1m5!1m1!1s0x89e5bab70509976b:0xce5e96f72c2f6f21!2m2!1d-71.3128285!2d41.4901024!1m5!1m1!1s0x89fca780cf83c821:0xd8d2863ae0f05eda!2m2!1d-70.1786425!2d42.0584412!1m5!1m1!1s0x89e3652d0d3d311b:0x787cbf240162e8a0!2m2!1d-71.0588801!2d42.3600825!1m30!1m1!1s0x4cb29c72aab0ee2d:0x7e9db6b53372fa29!2m2!1d-70.2553259!2d43.661471!3m4!1m2!1d-71.4271773!2d44.0144728!3s0x4cb37743d1f2ec2b:0xf743635336007e60!3m4!1m2!1d-71.8154142!2d43.9772508!3s0x4cb49b35a79599c7:0x25b8818db31a37da!3m4!1m2!1d-72.346965!2d43.838024!3s0x4cb4c47be43bdee7:0x692f23fe87cb3c77!3m4!1m2!1d-72.7868011!2d43.8171527!3s0x4cb52fa6e49f328d:0x86e1045a1060ad3!3m4!1m2!1d-72.9767624!2d44.183087!3s0x4cb570527fbd52f9:0x346c5989d153e431!1m5!1m1!1s0x4cca7a55b69b55e5:0xc35fe519720e498e!2m2!1d-73.212072!2d44.4758825!1m5!1m1!1s0x4cc91a541c64b70d:0x654e3138211fefef!2m2!1d-73.567256!2d45.5016889!3e0
+- Road trip includes:
+     * Ben & Jerry's factory tour
+     * Burlington Church Street Marketplace
+     * Classic Vermont covered bridges
+     * White Mountains
+     * Quechee Gorge
+     * Portland (and associated lighthouse)
+     * Cape Cod
+- How to adjust route for covered bridges:
+     * https://www.coveredbridgemap.com/vt/
+- A good bridge route to try to add in:
+     * https://www.google.co.uk/maps/dir/Waitsfield,+VT,+USA/44.5397553,-72.7912454/Jeffersonville,+Cambridge,+VT,+USA/Waterville,+VT,+USA/Belvidere,+VT,+USA/Johnson,+VT,+USA/Plainfield,+VT,+USA/Montpelier,+VT,+USA/@44.4007123,-72.8138716,10z/data=!4m50!4m49!1m5!1m1!1s0x4cb57302ae80c741:0xce2091c719cbe7b6!2m2!1d-72.7798479!2d44.1926386!1m5!3m4!1m2!1d-72.782589!2d44.5702788!3s0x4cb5929f80a059bd:0x943f5754ce26cab!1m5!1m1!1s0x4cb5f30d5a343963:0x79c2cb082a1a8885!2m2!1d-72.8292945!2d44.6439391!1m5!1m1!1s0x4cb5f0855fe871ab:0xa262315e5c8702c!2m2!1d-72.7690147!2d44.6903274!1m5!1m1!1s0x4cb5eff5b08e91e5:0x63fe90192f6eb721!2m2!1d-72.6986673!2d44.7492093!1m5!1m1!1s0x4cb5ec2fce5b6351:0x76d83dfee98d6e6d!2m2!1d-72.6803979!2d44.6356063!1m5!1m1!1s0x4cb5aa60e2848473:0xb68a80e7d61c7d37!2m2!1d-72.4264926!2d44.2781151!1m5!1m1!1s0x4cb5a78cc44dea05:0x4891e094ceb5836!2m2!1d-72.5753869!2d44.2600593!3e0
+- Dayum this view:
+     * https://www.google.co.uk/maps/@44.0015661,-71.5354192,3a,75y,86h,82t/data=!3m8!1e1!3m6!1sAF1QipN-9dVNIP7YCJbSbyLGOVaU4NsF5RtGBaOjWExE!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN-9dVNIP7YCJbSbyLGOVaU4NsF5RtGBaOjWExE%3Dw203-h100-k-no-pi-2.9999962-ya111.52781-ro-0-fo100!7i2508!8i1254
+- Drop car back off at Boston, stay 2 nights
+- Go to Martha's Vineyard
+- See Tom's palce and surrounding area
+- Home

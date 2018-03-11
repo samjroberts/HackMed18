@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import GenomeIndicator, Bacteria
+from .models import GenomeIndicator, Bacteria, FileUpload
 
 class GenomeIndicatorSerializer(serializers.ModelSerializer):
 
@@ -14,3 +14,8 @@ class BacteriaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Bacteria
         fields = "__all__"
+
+class FileUploadSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = FileUpload
+        fields = ('pk', 'encodedFile', )
